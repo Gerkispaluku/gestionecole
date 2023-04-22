@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<ew-extension name="FieldVisibility" version="13.0.0" type="Field Visibility" author="e.World">
+<description>
+<![CDATA[Field Visibility
+Set the server side Visible property of the field object for different pages or actions.
+IMPORTANT NOTES:
+1. This extension only sets the Visible property according to your settings. Be careful that hiding a field may break server side or client side code.
+2. The settings in this extension may be overridden by server events which also set the Visible property of the field.
+
+Table Setting:
+Permission Type - Possile values are: "bool", "userid", or "userlevel".
+
+Field Setting:
+- The setting must be a valid PHP expression,
+- If Permission Type is "bool", value should be 1 or 0 or boolean,
+- If Permission Type is "userid", data type of value should be same as the User ID field,
+  the value can be a single value, comma separated values, or array.
+- If Permission Type is "userlevel", data type of value must be integer,
+  the value can be a single value, comma separated values or array of integer.
+- Complex permission type is supported, the value must be a valid JSON object, e.g.
+  { "bool": <xxx>, "userid": <yyy>, "userlevel": <zzz> }
+  If JSON object is detected, the table level Permission Type setting will be ignored.
+
+Note:
+This extension does NOT require any additional files or zip file.
+]]>
+</description>
+<Project>
+<Database>
+<Table>
+	<Attribute name="PermissionType" desc="Permission Type" option="bool,userid,userlevel" default="bool" />
+<Field>
+	<Attribute name="page_add" desc="Add Page" />
+	<Attribute name="page_addopt" desc="Add Option Page" />
+	<Attribute name="page_view" desc="View Page" />
+	<Attribute name="page_edit" desc="Edit Page" />
+	<Attribute name="page_update" desc="Update Page" />
+	<Attribute name="page_delete" desc="Delete Page" />
+	<Attribute name="page_search" desc="Advanced Search Page" />
+	<Attribute name="page_list" desc="List Page" />
+	<Attribute name="action_add" desc="Inline Add (List Page)" />
+	<Attribute name="action_copy" desc="Inline Copy (List Page)" />
+	<Attribute name="action_edit" desc="Inline Edit (List Page)" />
+	<Attribute name="action_gridadd" desc="Grid Add (List Page)" />
+	<Attribute name="action_gridedit" desc="Grid Edit (List Page)" />
+	<Attribute name="page_master" desc="Master Page" />
+	<Attribute name="page_report" desc="Report Page" />
+</Field>
+</Table>
+</Database>
+</Project>
+</ew-extension>
+

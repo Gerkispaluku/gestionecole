@@ -1,0 +1,11 @@
+{
+    "name": "gestion-ecole",
+    "version": "19.9.0",
+    "description": "gestion ecole",
+    "license": "SEE LICENSE IN LICENSE.md",
+    "private": true,
+    "dependencies": {},
+    "engines": {
+        "node": ">=16"
+    }
+}

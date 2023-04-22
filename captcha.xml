@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<ew-extension name="CAPTCHA" version="13.0.5" type="CAPTCHA" author="e.World">
+<description>
+<![CDATA[Use CAPTCHA or reCAPTCHA
+
+Requires PHP GD2 library, update your PHP version to the latest version and enable the GD2 library if necessary.
+ 
+reCAPTCHA is OPTIONAL. If you choose to use reCAPTCHA, note that reCAPTCHA is a Web service, meaning that the CAPTCHA images are served directly from reCAPTCHA's servers to the end users, the end users need to be online.
+
+IMPORTANT NOTE for reCAPTCHA, you MUST:
+- register at the reCAPTCHA Web site (https://www.google.com/recaptcha/admin) and obtain public and private keys, otherwise reCAPTCHA will not work
+- enable PHP extension php_openssl.dll
+
+For localhost support of reCAPTCHA, read:
+https://developers.google.com/recaptcha/docs/faq#localhost_support
+
+To customize reCAPTCHA, read:
+https://developers.google.com/recaptcha/
+
+Note: This CAPTCHA extension is not part of PHPMaker, no technical support will be provided.
+]]>
+</description>
+<file>captcha.zip</file>
+<Project>
+	<Attribute name="Font" option="aftershock,monofont,DejaVuSans" default="aftershock" />
+	<Attribute name="UseCaptchaInLoginPage" type="Boolean" default="0"/>
+	<Attribute name="UseReCaptcha" type="Boolean" default="False" /><!-- v12 -->
+	<Attribute name="ReCaptchaTheme" option="dark,light" default="light"/><!-- v12 -->
+	<Attribute name="ReCaptchaType" option="audio,image" default="image"/><!-- v12 -->
+	<Attribute name="ReCaptchaSize" option="compact,normal" default="normal"/><!-- v12 -->
+	<Attribute name="ReCaptchaPublicKey"/><!-- v12 -->
+	<Attribute name="ReCaptchaPrivateKey"/><!-- v12 -->
+</Project>
+</ew-extension>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<ew-extension name="TimePicker" version="13.0.0" type="Time Picker" author="e.World">
+<description>
+<![CDATA[Use jquery.timepicker as time picker.
+Developer Website: http://jonthornton.github.io/jquery-timepicker/
+jquery.timepicker is available under MIT License.
+
+Settings:
+- TimeFormat (Uses the time portion of PHP's date formatting commands)
+- Step (Generate drop-down options with varying levels of precision)
+- Options (JSON notation representing additional options of jquery.timepicker)
+
+Note: The jquery.timepicker is not part of PHPMaker. Please read "Third-Party Tools" in the help file.
+]]>
+</description>
+<file>timepicker.zip</file>
+<Project>	
+<Database>
+<Table>
+<Field cond="field/FldValidate/EQ/TIME">
+	<Attribute name="TimeFormat" />
+	<Attribute name="Step" type="Integer" default="15" />
+	<Attribute name="Options" />
+</Field>
+</Table>
+</Database>
+</Project>
+</ew-extension>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<ew-extension name="HorizontalMenu" version="13.0.0" type="Horizontal Menu" author="e.World">
+<description>
+<![CDATA[Use Bootstrap to implement the horizontal menu bar.
+Developer Website: http://twitter.github.com/bootstrap/
+Bootstrap is issued by Twitter under the Apache License, Version 2.0.
+http://www.apache.org/licenses/LICENSE-2.0
+
+Note: Bootstrap is not part of PHPMaker. Please read "Third-Party Tools" in the help file.
+]]>
+</description>
+<file>horizontalmenu.zip</file>
+<Project>
+	<Attribute name="Brand" default=""/>
+	<Attribute name="BrandHref" default=""/>
+	<Attribute name="Inverted" type="Boolean" default="0"/>
+</Project>
+</ew-extension>

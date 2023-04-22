@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configuration date="2023/01/17" author="e.World Technology Ltd.">
+  <project id="{84EC96E8-6D54-4BAB-B15E-1EA379B0779B}" file="C:\Xampp\htdocs\gestionecole\gestion_ECOLE.pmp" name="Projeget2" product="PHPMaker" version="13.0" datetime="2023/01/17 07:21:03" languagefolder="phplang" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0">
+    <table id="affectation" name="affectation" caption="affectation" userlevel="-2,&quot;Anonymous&quot;,104;0,&quot;Default&quot;,32" priv="1" />
+    <table id="agent" name="agent" caption="agent" userlevel="-2,&quot;Anonymous&quot;,104;0,&quot;Default&quot;,32" priv="1" />
+    <table id="annee" name="annee" caption="annee" userlevel="-2,&quot;Anonymous&quot;,104;0,&quot;Default&quot;,32" priv="1" />
+    <table id="classe" name="classe" caption="classe" userlevel="-2,&quot;Anonymous&quot;,104;0,&quot;Default&quot;,32" priv="1" />
+    <table id="eleve" name="eleve" caption="eleve" userlevel="-2,&quot;Anonymous&quot;,104;0,&quot;Default&quot;,32" priv="1" />
+    <table id="fonction" name="fonction" caption="fonction" userlevel="-2,&quot;Anonymous&quot;,104;0,&quot;Default&quot;,32" priv="1" />
+    <table id="inscription" name="inscription" caption="inscription" userlevel="-2,&quot;Anonymous&quot;,104;0,&quot;Default&quot;,32" priv="1" />
+    <table id="userlevelpermissions" name="userlevelpermissions" caption="userlevelpermissions" userlevel="-2,&quot;Anonymous&quot;,8;0,&quot;Default&quot;,0" priv="1" />
+    <table id="userlevels" name="userlevels" caption="userlevels" userlevel="-2,&quot;Anonymous&quot;,8;0,&quot;Default&quot;,0" priv="1" />
+  </project>
+</configuration>

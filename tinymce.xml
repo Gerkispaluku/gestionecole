@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<ew-extension name="TinyMCE" version="13.0.4" type="DHTML Editor" author="e.World">
+<description>
+<![CDATA[Use TinyMCE as DHTML Editor.
+Developer Website: http://tinymce.moxiecode.com/index.php
+TinyMCE is distributed under the LGPL Open Source license.
+
+Note: TinyMCE requires IE >= 9.
+
+Note: TinyMCE is not part of PHPMaker. Please read "Third-Party Tools" in the help file.
+]]>
+</description>
+<file>tinymce.zip</file>
+</ew-extension>

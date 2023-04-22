@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<ew-extension name="Preview" version="13.0.0" type="Detail Preview" author="e.World">
+<description>
+<![CDATA[Ajax detail records preview row and/or preview overlay. Preview row is not applicable to Multiple Column (records per row > 0).
+
+Note: This extension serves as an additional example of using template extension for registered users only. This extensions is NOT part of PHPMaker, NO technical support will be provided.
+]]>
+</description>
+<file>preview.zip</file>
+<Project>
+<Database>	
+<Table>
+	<!-- Detail record preview -->
+	<Attribute name="UseDetailPreview" type="Boolean" default="True" />
+	<Attribute name="PreviewOverlay" type="Boolean" default="False" />
+	<Attribute name="PreviewRow" type="Boolean" default="True" />
+	<Attribute name="PreviewRowColor" type="Color" />
+	<Attribute name="SingleRow" type="Boolean" default="False" />	
+</Table>
+</Database>
+</Project>
+</ew-extension>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<ew-extension name="PHPWord" version="13.0.0" type="Word Export" author="e.World">
+<description>
+<![CDATA[Use PHPWord to export HTML to Word
+Developer Website: http://phpword.codeplex.com/
+PHPWord is available under the terms of the LGPL License.
+
+Notes:
+1. Supports exporting to 'Word2007' format only. To open PHPWord created files in Microsoft Office < 2007, Microsoft Office Compatibility Pack (http://www.microsoft.com/en-us/download/details.aspx?id=3) is required.
+2. Supports exporting images and charts (as images), but does NOT support styling cells.
+3. The advanced settings "ColumnWidth" and "RowHeight" are in twips. If specified, they'll be used for ALL cells.
+
+Requirements: (See http://phpword.codeplex.com/documentation for detail)
+- PHP version 5.2.0 or higher
+- PHP extension php_zip enabled
+- PHP extension php_xml enabled
+
+Note: This extension is NOT part of PHPMaker, NO technical support will be provided.
+]]>
+</description>
+<file>phpword.zip</file>
+<Project>
+<Database>
+<Table>	
+	<Attribute name="ColumnWidth" type="Integer" default="0" />
+	<Attribute name="RowHeight" type="Integer" default="0" />
+</Table>
+</Database>
+</Project>
+</ew-extension>

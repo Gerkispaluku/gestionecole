@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<ew-extension name="ScrollingTable" version="13.0.0" type="Scrolling Table" author="e.World">
+<description>
+<![CDATA[Scrolling table example
+
+Notes:
+1. This extension serves as an additional example of using template extension for registered users only. This extensions is NOT part of PHPMaker, NO technical support will be provided.
+2. Latest version of browsers are required. If IE, IE >= 8 is required, IE <=7 are not supported.
+]]>
+</description>
+<file>scrollingtable.zip</file>
+<Project>
+<Database>	
+<Table>
+	<!-- Scroll table -->
+	<Attribute name="Scrollable" type="Boolean" default="False"/>
+	<Attribute name="ScrollWidth" type="Integer" default="0"/>
+	<Attribute name="ScrollHeight" type="Integer" default="0"/>
+</Table>
+</Database>
+</Project>
+</ew-extension>

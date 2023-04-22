@@ -1,0 +1,64 @@
+{
+	"name": "hkvstore/phpmaker",
+	"version": "2023",
+	"type": "project",
+	"homepage": "https://phpmaker.dev/",
+	"license": "Commercial",
+	"authors": [
+		{
+			"name": "e.World Technology Limited",
+			"email": "sales@hkvstore.com"
+		}
+	],
+	"require": {
+		"php": ">=7.4.0",
+		"ext-intl": "*",
+		"slim/slim": "^4.10.0",
+		"slim/csrf": "^1.2.1",
+		"slim/http": "^1.2.0",
+		"slim/http-cache": "^1.1.0",
+		"slim/flash": "^0.4.0",
+		"slim/php-view": "^3.2.0",
+		"nyholm/psr7": "^1.5.1",
+		"nyholm/psr7-server": "^1.0.2",
+		"php-di/php-di": "^6.4.0",
+		"doctrine/dbal": "^3.4.4",
+		"monolog/monolog": "^2.8.0",
+		"firebase/php-jwt": "^6.3.0",
+		"phpmailer/phpmailer": "^6.6.4",
+		"ezyang/htmlpurifier": "^4.16.0",
+		"hkvstore/phpthumb": "^2.1.4",
+		"mobiledetect/mobiledetectlib": "^2.8.39",
+		"soundasleep/html2text": "^2.0.0",
+		"defuse/php-encryption": "~2.3.1",
+		"hkvstore/pinq": "^3.5.1",
+		"dflydev/dot-access-data": "^3.0.1",
+		"delight-im/cookie": "^3.4.0",
+		"selective/samesite-cookie": "~0.3.0",
+		"imangazaliev/didom": "^2.0",
+		"symfony/polyfill-php80": "^1.26.0",
+		"symfony/polyfill-php81": "^1.26.0",
+		"jawira/case-converter": "^3.5.1",
+		"filp/whoops": "^2.14.5",
+		"psr/log": "^1.1.4",
+		"psr/cache": "^1.0.1",
+		"giggsey/libphonenumber-for-php": "^8.12.45",
+		"hkvstore/dompdf": "~2.0.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"PHPMaker2023\\gestion_ECOLE\\": [
+				"src/",
+				"models/",
+				"controllers/"
+			]
+		},
+		"classmap": [
+			"src/UploadHandler.php",
+			"src/PasswordHash.php"
+		]
+	},
+	"config": {
+		"allow-plugins": true
+	}
+}

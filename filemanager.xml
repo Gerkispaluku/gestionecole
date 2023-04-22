@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<ew-extension name="FCKeditorFileManager" version="13.0.0" type="FileManager for CKEditor" author="e.World">
+<description>
+<![CDATA[Use FCKeditor FileManager in CKEditor.
+Developer Website: http://www.fckeditor.net/
+FCKeditor is distributed under the LGPL Open Source license.
+
+Important Note: The advanced setting "UserFilesPath" is a folder under the global upload folder (under PHP -> General Options -> File Upload tab, see PHP Settings in the help file), e.g. if the global upload folder is "uploads/" (relative to application root) and "UserFilesPath" is "userfiles/", then the user file folder is "uploads/userfiles/" (relative to application root). If "UserFilesPath" not specified, the global upload folder will be used. Make sure you have setup write permssions for the upload folder properly. 
+
+Note: FCKeditor is not part of PHPMaker. Please read "Third-Party Tools" in the help file.
+]]>
+</description>
+<file>filemanager.zip</file>
+<Project>
+	<Attribute name="UserFilesPath" default="userfiles/" /><!-- Relative to application root -->
+</Project>
+</ew-extension>
